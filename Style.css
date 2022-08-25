@@ -1,0 +1,54 @@
+h1 {
+  color: red;
+  display: flex;
+  justify-content: center;
+}
+
+.menu_top {
+  background-color: paleturquoise;
+  min-width: 200px;
+  border-radius: 20px;
+}
+
+.menu_entitled {
+  padding: 5px;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+li {
+  padding: 10px;
+}
+
+li:hover {
+  background-color: palevioletred;
+  transition: 0.7s;
+  border-radius: 20px;
+}
+
+.core_text {
+  position: relative;
+  padding: 10px;
+  min-width: 200px;
+  height: 300px;
+  border-radius: 10px;
+  background-color: paleturquoise;
+  overflow: auto;
+}
+
+.text_in {
+  border-radius: 30px;
+  padding: 10px;
+  background-color: rgba(93, 184, 142, 0.575);
+}
+
+/* Global */
+body::-webkit-scrollbar {
+  width: 8px;
+}
+/* Ascenseur */
+body::-webkit-scrollbar-thumb {
+  background: #aaa;
+  border-radius: 8px;
+}
